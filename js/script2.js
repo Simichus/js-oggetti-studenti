@@ -32,8 +32,7 @@ addButton.addEventListener('click', function () {
 
         if (!students.includes(newStudent)) {
             students.push(newStudent)
-        }
-        else {
+        } else {
             alert('Studente già presente');
         };
     } else {
